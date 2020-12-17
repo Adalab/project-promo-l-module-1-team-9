@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  --blue-green: #099d8d;
+}
+.Rectangle-3 {
+  width: 320px;
+  height: 579px;
+  margin: 504px 0 0;
+  padding: 30px 15px 45px;
+  opacity: 0.2;
+  background-color: #b8b8b9;
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+}
+
+.title-3 {
+  width: 290px;
+  height: 45px;
+  font-family: Rubik medium;
+  font-size: 22px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.05;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--blue-green);
+}
+.text {
+  width: 290px;
+  height: 192px;
+  margin: 45px 0 30px;
+  font-family: OpenSans;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #54585a;
+}
