@@ -58,6 +58,7 @@
   margin: 0;
   --blue-green: #099d8d;
 }
+
 .Rectangle-3 {
   width: 320px;
   height: 579px;
@@ -82,7 +83,11 @@
   letter-spacing: normal;
   text-align: center;
   color: var(--blue-green);
+  background-color: blue;
 }
+
+/*Fortalezas y debilidades*/
+
 .text {
   width: 290px;
   height: 192px;
@@ -96,4 +101,19 @@
   letter-spacing: normal;
   text-align: center;
   color: #54585a;
+  background-color: rgb(231, 149, 149);
+}
+
+.Rectangle {
+  margin: 0;
+  width: 320px;
+  height: 579px;
+  margin: 504px 0 0;
+  padding: 30px 15px 45px;
+  background-color: rgba(184, 184, 185, 0.2);
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
