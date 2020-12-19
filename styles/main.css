@@ -59,6 +59,7 @@
   --blue-green: #099d8d;
 }
 
+
 .Rectangle-3 {
   width: 320px;
   height: 579px;
@@ -87,6 +88,7 @@
 }
 
 /*About us*/
+
 .Rectangle-3copy {
   width: 320px;
   height: 504px;
@@ -109,7 +111,8 @@
   line-height: 1.88;
   letter-spacing: normal;
   text-align: center;
-  color: var(--aqua);
+  color: #14d9c4;
+
 }
 
 .Description {
@@ -129,10 +132,6 @@
   
 
 }
-
-
-
-
 
 /*Fortalezas y debilidades*/
 
