@@ -1,9 +1,76 @@
+/*header*/
+.header {
+  font-family: rubik;
+  border: 1px solid black;
+  color: white;
+  width: 320px;
+  height: 105px;
+}
+.team {
+  font-size: 16px;
+  width: 100%;
+  height: 60px;
+  opacity: 0.95;
+  background-color: #099d8d;
+}
+
+/*
+.content {
+  width: 100%;
+  height: 45px;
+  opacity: 0.9;
+  background-color: #14d9c4;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.nav-1 {
+  font-size: 15px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 2px solid black;
+}
+.nav-2 {
+  font-size: 15px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.nav-3 {
+  font-size: 15px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+*/
 * {
-  margin-left: 0px;
+  margin: 0;
   --blue-green: #099d8d;
 }
 
-/*Fortalezas y debilidades*/
+.Rectangle-3 {
+  width: 320px;
+  height: 579px;
+  margin: 504px 0 0;
+  padding: 30px 15px 45px;
+  opacity: 0.2;
+  background-color: #b8b8b9;
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+}
+
 .title-3 {
   width: 290px;
   height: 45px;
@@ -16,8 +83,11 @@
   letter-spacing: normal;
   text-align: center;
   color: var(--blue-green);
-  /*background-color: blue;*/
+  background-color: blue;
 }
+
+/*Fortalezas y debilidades*/
+
 .text {
   width: 290px;
   height: 192px;
@@ -31,7 +101,7 @@
   letter-spacing: normal;
   text-align: center;
   color: #54585a;
-  /*background-color: rgb(231, 149, 149);*/
+  background-color: rgb(231, 149, 149);
 }
 
 .Rectangle {
