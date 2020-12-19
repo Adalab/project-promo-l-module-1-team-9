@@ -174,3 +174,61 @@
   text-align: center;
   color: #54585a;
 }
+
+/*quienes somos*/
+.intro {
+  width: 290px;
+  height: 2225px;
+  margin: 0 0 0;
+  padding: 30px 15px 45px;
+  background-color: #ffffff;
+}
+.who {
+  width: 193px;
+  height: 45px;
+  margin: 0 47.5px 30px 49.5px;
+  font-family: var(--title);
+  font-size: 24px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.88;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--blue-green);
+}
+.image {
+  width: 180px;
+  height: 180px;
+  margin: 0 55px 15px;
+  border-radius: 4px;
+  border: solid 5px rgba(0, 0, 0, 0.08);
+}
+.name {
+  width: 147px;
+  height: 45px;
+  margin: 15px 70.5px 0 72.5px;
+  font-family: OpenSans;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.25;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--black);
+}
+.description {
+  width: 290px;
+  height: 200px;
+  margin: 60px 0 15px;
+  font-family: OpenSans;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #54585a;
+}
