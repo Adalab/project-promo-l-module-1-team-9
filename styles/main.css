@@ -1,9 +1,9 @@
 * {
+  margin-left: 0px;
   --blue-green: #099d8d;
 }
 
 /*Fortalezas y debilidades*/
-
 .title-3 {
   width: 290px;
   height: 45px;
@@ -16,7 +16,7 @@
   letter-spacing: normal;
   text-align: center;
   color: var(--blue-green);
-  background-color: blue;
+  /*background-color: blue;*/
 }
 .text {
   width: 290px;
@@ -31,7 +31,7 @@
   letter-spacing: normal;
   text-align: center;
   color: #54585a;
-  background-color: rgb(231, 149, 149);
+  /*background-color: rgb(231, 149, 149);*/
 }
 
 .Rectangle {
