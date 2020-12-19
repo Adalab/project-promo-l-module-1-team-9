@@ -1,10 +1,15 @@
-* {
-  margin: 0;
+:root {
+  /*Colores*/
   --blue-green: #099d8d;
   --aqua: #14d9c4;
+  --white: white;
+  --grey: #54585a;
+
+  /*Fuentes*/
   --title: rubik;
   --text: OpenSans;
 }
+
 /*header*/
 .header {
   font-family: var(--title);
@@ -100,20 +105,20 @@
 
 /*Fortalezas y debilidades*/
 .Rectangle {
-  width: 320px;
-  height: 579px;
-  margin: 504px 0 0;
+  width: 290px;
+  height: 504px;
+  margin: 0 0 0 0;
   padding: 30px 15px 45px;
   background-color: rgba(184, 184, 185, 0.2);
-  list-style-type: none;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 .title-1 {
   width: 290px;
   height: 45px;
+  margin: 0;
   font-family: var(--title);
   font-size: 22px;
   font-weight: 500;
@@ -129,7 +134,7 @@
 .text-1 {
   width: 290px;
   height: 192px;
-  margin: 45px 0 30px;
+  margin: 0 0 30px;
   font-family: var(--text);
   font-size: 16px;
   font-weight: normal;
@@ -144,7 +149,7 @@
 .title-2 {
   width: 290px;
   height: 45px;
-  margin: 30px 0 0;
+  margin: 0 0 0;
   font-family: var(--title);
   font-size: 22px;
   font-weight: 500;
@@ -158,7 +163,7 @@
 .text-2 {
   width: 290px;
   height: 192px;
-  margin: 75px 0 0;
+  margin: 0 0 0;
   font-family: var(--text);
   font-size: 16px;
   font-weight: normal;
