@@ -35,11 +35,12 @@
   letter-spacing: normal;
   color: #ffffff;
   text-align: center;
-  margin: auto;
+  /* margin: auto;*/
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  /*box-sizing: border-box;*/
 }
 .content {
   width: 320px;
@@ -64,6 +65,7 @@
   justify-content: center;
   align-items: center;
 }
+
 .nav-1 {
   width: 56px;
   height: 30px;
@@ -286,4 +288,53 @@
   letter-spacing: normal;
   text-align: center;
   color: #54585a;
+}
+.rectangle-6 {
+  width: 320px;
+  height: 250px;
+  margin: 0 0 0;
+  padding: 30px 74px 45px;
+  border: solid 1px #b8b8b9;
+  background-color: #ffffff;
+}
+.nombre-del-grupo-2 {
+  width: 172px;
+  height: 20px;
+  margin: 0 0 20px;
+  font-family: var(--text);
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+  text-align: center;
+  color: #b8b8b9;
+}
+.equipo-quienes-somos {
+  width: 114px;
+  height: 60px;
+  margin: 20px 29px 30px;
+  opacity: 0.75;
+  font-family: var(--text);
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--grey);
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+}
+.link {
+}
+.quienes-somos {
+}
+.bitmap {
+  width: 115.9px;
+  height: 45px;
+  margin: 30px 28.1px 0 28px;
 }
