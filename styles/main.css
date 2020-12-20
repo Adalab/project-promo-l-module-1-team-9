@@ -14,15 +14,16 @@
 .header {
   font-family: var(--title);
   color: #ffffff;
+  opacity: 0.95;
   width: 320px;
-  height: 105px;
-  display: flex;
+  height: 60px;
+  background-color: var(--blue-green);
+
+  /*display: flex;
   box-sizing: border-box;
-  flex-direction: column;
+  flex-direction: column;*/
 }
 .team {
-  width: 160px;
-  height: 30px;
   padding: 15px 80px;
   opacity: 0.95;
   background-color: var(--blue-green);
@@ -34,19 +35,22 @@
   line-height: 1.88;
   letter-spacing: normal;
   color: #ffffff;
-  text-align: center;
+  /*text-align: center;*/
+  display: inline;
+
   /* margin: auto;*/
-  display: flex;
+  /*display: flex;
   flex-direction: row;
   justify-content: space-around;
-  align-items: center;
+  align-items: center;*/
   /*box-sizing: border-box;*/
 }
 .content {
   width: 320px;
   height: 45px;
   opacity: 0.9;
-  margin: 0;
+  margin-top: 8px;
+  margin-bottom: 7px;
   background-color: var(--aqua);
   box-sizing: border-box;
   display: flex;
@@ -172,7 +176,6 @@
   letter-spacing: normal;
   text-align: center;
   color: #54585a;
-
 }
 .Rectangle-Small {
   background-color: white;
