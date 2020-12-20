@@ -123,9 +123,10 @@
 
 .rectangle-white {
   width: 290px;
-  height: 474px;
+  position: relative;
+  height: 420px;
   padding: 30px 15px;
-  background-color: var(--blue-green);
+  background-color: var(--white);
 } /*background-color: var(--white)*/
 
 .Title-Equipo {
@@ -158,7 +159,7 @@
 }
 
 .Description1 {
-  margin: 15px 0 0;
+  margin: 20px 0 0;
   width: 290px;
   font-family: OpenSans;
   font-size: 16px;
@@ -169,6 +170,18 @@
   letter-spacing: normal;
   text-align: center;
   color: #54585a;
+
+}
+.Rectangle-Small {
+  background-color: white;
+  margin:0 135px 0;
+  align-items: center;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  transform: rotate(45deg);
+  left: 0%;
+  top: 71%;
 
 }
 
