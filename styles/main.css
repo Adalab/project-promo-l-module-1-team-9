@@ -318,16 +318,23 @@
 }
 .social {
     display: flex;
+    list-style: none;
     justify-content: space-between;
     margin: 8px 0 0 px;
     width: 124px;
     height: 30px;
     margin: 0 auto;
     padding: 30px;
-    
-    
+    color: var(--blue-green);
+}
+.fab {
+color: var(--blue-green);
+}
+.fas {
+color: var(--blue-green);
 
-  }
+
+}
 
 .rectangle-6 {
   width: 208px;
