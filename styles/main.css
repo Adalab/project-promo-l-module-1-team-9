@@ -139,7 +139,7 @@
   width: 89px;
   height: 45px;
   margin: 0 99.5px 15px 101.5px;
-  font-family: Rubik;
+  font-family: var(--title);
   font-size: 24px;
   font-weight: 500;
   font-stretch: normal;
@@ -166,7 +166,7 @@
 
 .Description1 {
   margin: 20px 0 0;
-  width: 290px;
+  width: 310px;
   font-family: OpenSans;
   font-size: 16px;
   font-weight: normal;
@@ -180,11 +180,11 @@
 .Rectangle-Small {
   background-color: white;
   margin:0 130px 0;
-  width: 35px;
-  height: 35px;
+  width: 30px;
+  height: 30px;
   transform: rotate(45deg);
   position: absolute;
-  top: 587px; left: 16px;
+  top: 600px; left: 16px;
 }
 
 /*Fortalezas y debilidades*/
@@ -262,7 +262,7 @@
 /*quienes somos*/
 .intro {
   width: 290px;
-  height: 2225px;
+  height: 2560px;
   margin: 0 0 0;
   padding: 30px 15px 45px;
   background-color: #ffffff;
@@ -316,9 +316,21 @@
   text-align: center;
   color: #54585a;
 }
+.social {
+    display: flex;
+    justify-content: space-between;
+    margin: 8px 0 0 px;
+    width: 124px;
+    height: 30px;
+    margin: 0 auto;
+    padding: 30px;
+    
+    
+
+  }
+
 .rectangle-6 {
-  width: 320px;
-  height: 250px;
+  width: 208px;
   margin: 0 0 0;
   padding: 30px 74px 45px;
   border: solid 1px #b8b8b9;
@@ -356,10 +368,7 @@
   flex-direction: column;
   list-style-type: none;
 }
-.link {
-}
-.quienes-somos {
-}
+
 .bitmap {
   width: 115.9px;
   height: 45px;
