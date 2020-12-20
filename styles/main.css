@@ -121,12 +121,12 @@
 
 /*About us*/
 
-.Rectangle-3copy {
-  width: 320px;
-  height: 504px;
+.rectangle-white {
+  width: 290px;
+  height: 474px;
   padding: 30px 15px;
-  background-color: var(--white);
-}
+  background-color: var(--blue-green);
+} /*background-color: var(--white)*/
 
 .Title-Equipo {
   width: 89px;
@@ -145,7 +145,6 @@
 
 .Description {
   width: 290px;
-  height: 384px;
   margin: 15px 0 0;
   font-family: OpenSans;
   font-size: 16px;
@@ -156,6 +155,21 @@
   letter-spacing: normal;
   text-align: center;
   color: #54585a;
+}
+
+.Description1 {
+  margin: 15px 0 0;
+  width: 290px;
+  font-family: OpenSans;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #54585a;
+
 }
 
 /*Fortalezas y debilidades*/
