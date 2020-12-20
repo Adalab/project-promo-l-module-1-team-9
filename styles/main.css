@@ -176,15 +176,12 @@
 }
 .Rectangle-Small {
   background-color: white;
-  margin:0 135px 0;
-  align-items: center;
-  position: absolute;
-  width: 30px;
-  height: 30px;
+  margin:0 130px 0;
+  width: 35px;
+  height: 35px;
   transform: rotate(45deg);
-  left: 0%;
-  top: 71%;
-
+  position: absolute;
+  top: 587px; left: 16px;
 }
 
 /*Fortalezas y debilidades*/
