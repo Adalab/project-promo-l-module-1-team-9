@@ -24,7 +24,8 @@
   flex-direction: column;*/
 }
 .team {
-  padding: 15px 80px;
+  /*padding: 15px 80px;*/
+  margin: 0 auto;
   opacity: 0.95;
   background-color: var(--blue-green);
   font-family: var(--title);
@@ -35,22 +36,21 @@
   line-height: 1.88;
   letter-spacing: normal;
   color: #ffffff;
-  /*text-align: center;*/
-  display: inline;
+  /*text-align: center;
+  display: block;*/
 
   /* margin: auto;*/
-  /*display: flex;
+  display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  align-items: center;*/
+  align-items: center;
   /*box-sizing: border-box;*/
 }
 .content {
   width: 320px;
   height: 45px;
   opacity: 0.9;
-  margin-top: 8px;
-  margin-bottom: 7px;
+  /*margin-top: 8px;
+  margin-bottom: 7px;*/
   background-color: var(--aqua);
   box-sizing: border-box;
   display: flex;
@@ -179,12 +179,13 @@
 }
 .Rectangle-Small {
   background-color: white;
-  margin:0 130px 0;
+  margin: 0 130px 0;
   width: 30px;
   height: 30px;
   transform: rotate(45deg);
   position: absolute;
-  top: 600px; left: 16px;
+  top: 600px;
+  left: 16px;
 }
 
 /*Fortalezas y debilidades*/
@@ -317,23 +318,21 @@
   color: #54585a;
 }
 .social {
-    display: flex;
-    list-style: none;
-    justify-content: space-between;
-    margin: 8px 0 0 px;
-    width: 124px;
-    height: 30px;
-    margin: 0 auto;
-    padding: 30px;
-    color: var(--blue-green);
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  margin: 8px 0 0 px;
+  width: 124px;
+  height: 30px;
+  margin: 0 auto;
+  padding: 30px;
+  color: var(--blue-green);
 }
 .fab {
-color: var(--blue-green);
+  color: var(--blue-green);
 }
 .fas {
-color: var(--blue-green);
-
-
+  color: var(--blue-green);
 }
 
 .rectangle-6 {
