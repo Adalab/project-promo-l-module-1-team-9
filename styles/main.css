@@ -73,7 +73,7 @@
   height: 45px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space--between;
   align-items: center;
   list-style: none;
 }
