@@ -22,6 +22,24 @@
   box-sizing: border-box;
   flex-direction: column;*/
 }
+
+.hero {
+  display: flex;
+  align-items: center;
+}
+
+.hero-image {
+  height: 100%;
+  width: 100%;
+  margin: 0 0 46px;
+  padding: 0 0 316px;
+}
+.rectangle-lema {
+  margin: 387px 15px 0;
+  padding: 14px 15px 16px;
+  background-color: #ffffff;
+}
+
 .team {
   /*padding: 15px 80px;*/
   margin: 0 auto;
