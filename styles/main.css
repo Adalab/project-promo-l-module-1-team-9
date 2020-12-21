@@ -267,6 +267,10 @@
   margin: 0 0 0;
   padding: 30px 15px 45px;
   background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .who {
   width: 193px;
