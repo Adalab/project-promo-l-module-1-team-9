@@ -15,7 +15,6 @@
   font-family: var(--title);
   color: #ffffff;
   opacity: 0.95;
-  width: 320px;
   height: 60px;
   background-color: var(--blue-green);
 
@@ -48,7 +47,6 @@
   /*box-sizing: border-box;*/
 }
 .content {
-  width: 320px;
   height: 45px;
   opacity: 0.9;
   /*margin-top: 8px;
@@ -63,7 +61,6 @@
   padding-right: 30px;
 }
 .row {
-  width: 56px;
   height: 30px;
   display: flex;
   box-sizing: border-box;
@@ -73,7 +70,6 @@
 }
 
 .nav-1 {
-  width: 56px;
   height: 30px;
   margin: auto;
   font-family: var(--title);
@@ -91,7 +87,6 @@
   justify-content: center;
 }
 .nav-2 {
-  width: 121px;
   height: 30px;
   margin: auto;
   font-family: Rubik;
@@ -109,7 +104,6 @@
   justify-content: center;
 }
 .nav-3 {
-  width: 80px;
   height: 30px;
   margin: auto;
   font-family: Rubik;
@@ -130,7 +124,6 @@
 /*About us*/
 
 .rectangle-white {
-  width: 290px;
   position: relative;
   height: 420px;
   padding: 30px 15px;
@@ -138,7 +131,6 @@
 } /*background-color: var(--white)*/
 
 .Title-Equipo {
-  width: 89px;
   height: 45px;
   margin: 0 99.5px 15px 101.5px;
   font-family: var(--title);
@@ -153,7 +145,6 @@
 }
 
 .Description {
-  width: 290px;
   margin: 15px 0 0;
   font-family: OpenSans;
   font-size: 16px;
@@ -168,7 +159,7 @@
 
 .Description1 {
   margin: 20px 0 0;
-  width: 310px;
+
   font-family: OpenSans;
   font-size: 16px;
   font-weight: normal;
@@ -192,7 +183,6 @@
 
 /*Fortalezas y debilidades*/
 .Rectangle {
-  width: 290px;
   height: 504px;
   margin: 0 0 0 0;
   padding: 30px 15px 45px;
@@ -203,7 +193,6 @@
   align-items: center;
 }
 .title-1 {
-  width: 290px;
   height: 45px;
   margin: 0;
   font-family: var(--title);
@@ -219,7 +208,6 @@
 }
 
 .text-1 {
-  width: 290px;
   height: 192px;
   margin: 0 0 30px;
   font-family: var(--text);
@@ -234,7 +222,6 @@
   /*background-color: rgb(231, 149, 149);*/
 }
 .title-2 {
-  width: 290px;
   height: 45px;
   margin: 0 0 0;
   font-family: var(--title);
@@ -248,7 +235,6 @@
   color: var(--blue-green);
 }
 .text-2 {
-  width: 290px;
   height: 192px;
   margin: 0 0 0;
   font-family: var(--text);
@@ -264,7 +250,6 @@
 
 /*quienes somos*/
 .intro {
-  width: 290px;
   height: 2560px;
   margin: 0 0 0;
   padding: 30px 15px 45px;
@@ -275,7 +260,6 @@
   align-items: center;
 }
 .who {
-  width: 193px;
   height: 45px;
   margin: 0 47.5px 30px 49.5px;
   font-family: var(--title);
@@ -289,14 +273,13 @@
   color: var(--blue-green);
 }
 .image {
-  width: 180px;
   height: 180px;
+  width: 180px;
   margin: 0 55px 15px;
   border-radius: 4px;
   border: solid 5px rgba(0, 0, 0, 0.08);
 }
 .name {
-  width: 147px;
   height: 45px;
   margin: 15px 70.5px 0 72.5px;
   font-family: OpenSans;
@@ -310,7 +293,6 @@
   color: var(--black);
 }
 .description {
-  width: 290px;
   height: 200px;
   margin: 60px 0 15px;
   font-family: OpenSans;
