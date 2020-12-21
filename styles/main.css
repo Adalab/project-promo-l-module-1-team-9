@@ -102,7 +102,7 @@
 .rectangle-white {
   position: relative;
   height: 230px;
-  padding: 30px 0px;
+  padding: 60px 0px;
   background-color: var(--white);
 } /*background-color: var(--white)*/
 
@@ -149,13 +149,14 @@
   color: #54585a;
 }
 .Rectangle-Small {
-  justify-content: center;
-  background-color: red;
-  margin: 0 280px 0;
+  box-sizing: border-box;
+  position: absolute;
+  transform: translate(-50%, -50%) rotate(45deg);
   width: 30px;
   height: 30px;
-  transform: rotate(45deg);
-  
+  left: 50%;
+  top: 100%;
+  background-color:white;
   
 }
 
@@ -283,21 +284,28 @@
   text-align: center;
   color: #54585a;
 }
-.social {
-  display: flex;
-  list-style: none;
-  justify-content: space-between;
-  margin: 8px 0 0 px;
-  width: 124px;
-  height: 30px;
-  margin: 0 auto;
-  padding: 30px;
-  color: var(--blue-green);
+
+.iconos {
+align-items: center;
+
+
 }
+.social {
+  display: flex;  
+  justify-content: center;
+  justify-content: space-around;
+  padding-left: 0%;
+  list-style: none;
+  margin-bottom: 15px;
+  color: var(--brand-1);
+}
+
 .fab {
+  
   color: var(--blue-green);
 }
 .fas {
+  
   color: var(--blue-green);
 }
 /*footer*/
