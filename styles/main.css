@@ -102,14 +102,15 @@
 
 .rectangle-white {
   position: relative;
-  height: 420px;
-  padding: 30px 15px;
+  height: 230px;
+  padding: 30px 0px;
   background-color: var(--white);
 } /*background-color: var(--white)*/
 
 .Title-Equipo {
-  height: 45px;
-  margin: 0 99.5px 15px 101.5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-family: var(--title);
   font-size: 24px;
   font-weight: 500;
@@ -122,7 +123,8 @@
 }
 
 .Description {
-  margin: 15px 0 0;
+  margin: 20px 0 0;
+  justify-content: center;
   font-family: OpenSans;
   font-size: 16px;
   font-weight: normal;
@@ -136,7 +138,7 @@
 
 .Description1 {
   margin: 20px 0 0;
-
+  justify-content: center;
   font-family: OpenSans;
   font-size: 16px;
   font-weight: normal;
@@ -148,14 +150,14 @@
   color: #54585a;
 }
 .Rectangle-Small {
-  background-color: white;
-  margin: 0 130px 0;
+  justify-content: center;
+  background-color: red;
+  margin: 0 280px 0;
   width: 30px;
   height: 30px;
   transform: rotate(45deg);
-  position: absolute;
-  top: 600px;
-  left: 16px;
+  
+  
 }
 
 /*Fortalezas y debilidades*/
