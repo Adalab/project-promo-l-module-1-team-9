@@ -17,6 +17,7 @@
   opacity: 0.95;
   height: 60px;
   background-color: var(--blue-green);
+  width: 100vw;
 }
 
 .hero {
@@ -49,6 +50,7 @@
 .team {
   opacity: 0.95;
   background-color: var(--blue-green);
+  width: 100%;
   font-family: var(--title);
   font-size: 16px;
   font-weight: 500;
@@ -71,11 +73,13 @@
 }
 .row {
   height: 45px;
+  width: 80%;
   display: flex;
   flex-direction: row;
   justify-content: space--between;
   align-items: center;
   list-style: none;
+  padding-left: 15px;
 }
 
 .nav-1 {
@@ -312,7 +316,7 @@ align-items: center;
 
 .rectangle-6 {
   margin: 0 0 0;
-  padding: 30px 74px 45px;
+  padding: 15px;
   border: solid 1px #b8b8b9;
   background-color: #ffffff;
 }
@@ -337,6 +341,7 @@ align-items: center;
   width: 100%;
   height: 60px;
   margin top: 20;
+  padding-left: 0;
   opacity: 0.75;
   font-family: var(--text);
   font-size: 14px;
@@ -351,6 +356,7 @@ align-items: center;
   flex-direction: column;
   align-items: center;
   list-style-type: none;
+  
   
 }
 .linkequipo {
@@ -376,6 +382,9 @@ align-items: center;
   width: 115.9px;
   height: 45px;
   margin-top: 30px;
+  padding-right: 30px;
+  padding-left: 100px;
+  padding-bottom: 15px;
   display: flex;
   flex-direction: column;
   justify-content: center;
