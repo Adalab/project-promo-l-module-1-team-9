@@ -179,12 +179,13 @@
 }
 .Rectangle-Small {
   background-color: white;
-  margin:0 130px 0;
+  margin: 0 130px 0;
   width: 30px;
   height: 30px;
   transform: rotate(45deg);
   position: absolute;
-  top: 600px; left: 16px;
+  top: 600px;
+  left: 16px;
 }
 
 /*Fortalezas y debilidades*/
@@ -266,6 +267,10 @@
   margin: 0 0 0;
   padding: 30px 15px 45px;
   background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .who {
   width: 193px;
@@ -317,23 +322,21 @@
   color: #54585a;
 }
 .social {
-    display: flex;
-    list-style: none;
-    justify-content: space-between;
-    margin: 8px 0 0 px;
-    width: 124px;
-    height: 30px;
-    margin: 0 auto;
-    padding: 30px;
-    color: var(--blue-green);
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  margin: 8px 0 0 px;
+  width: 124px;
+  height: 30px;
+  margin: 0 auto;
+  padding: 30px;
+  color: var(--blue-green);
 }
 .fab {
-color: var(--blue-green);
+  color: var(--blue-green);
 }
 .fas {
-color: var(--blue-green);
-
-
+  color: var(--blue-green);
 }
 
 .rectangle-6 {
