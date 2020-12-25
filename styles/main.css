@@ -19,7 +19,7 @@
 }
 
 .hero {
-  background-image: url(../Images/hero.jpg) ;
+  background-image: url(../Images/hero.jpg);
   background-size: cover;
   width: 100%;
   height: 400px;
@@ -50,6 +50,7 @@
   opacity: 0.95;
   background-color: var(--blue-green);
   width: 100%;
+  height: 100%;
   font-family: var(--title);
   font-size: 16px;
   font-weight: 500;
@@ -61,7 +62,6 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  height: 100%;
   justify-content: center;
 }
 .content {
@@ -78,8 +78,7 @@
   justify-content: space-between;
   align-items: center;
   list-style: none;
-  padding: 0 15px;
-  
+  padding-left: 0;
 }
 
 .nav-1 {
@@ -87,18 +86,21 @@
   font-family: var(--title);
   color: #ffffff;
   font-size: 15px;
+  padding-left: 16px;
 }
 .nav-2 {
   text-decoration: none;
   font-family: var(--title);
   color: #ffffff;
   font-size: 15px;
+  padding-left: 10px;
 }
 .nav-3 {
   text-decoration: none;
   font-family: var(--title);
   color: #ffffff;
   font-size: 15px;
+  padding-right: 17px;
 }
 /*About us*/
 .rectangle-white {
@@ -155,8 +157,7 @@
   height: 30px;
   left: 50%;
   top: 100%;
-  background-color:white;
-  
+  background-color: white;
 }
 /*Fortalezas y debilidades*/
 .Rectangle {
@@ -281,10 +282,10 @@
   color: #54585a;
 }
 .iconos {
-align-items: center;
+  align-items: center;
 }
 .social {
-  display: flex;  
+  display: flex;
   justify-content: center;
   justify-content: space-around;
   padding-left: 0%;
@@ -293,26 +294,24 @@ align-items: center;
   color: var(--brand-1);
 }
 .fab {
-  
   color: var(--blue-green);
 }
 .fas {
-  
   color: var(--blue-green);
 }
 /*footer*/
 
 .rectangle-6 {
-  margin: 0 0 0;
-  padding: 30px 74px 45px;
-  padding: 15px;
-  border: solid 1px #b8b8b9;
+   border: solid 1px #b8b8b9;
   background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .nombre-del-grupo-2 {
   width: 100%;
-  height: 20px;
-  margin-bottom: 15px;
+  padding: 30px 74px 20px 74px;
   font-family: var(--text);
   font-size: 14px;
   font-weight: normal;
@@ -320,34 +319,32 @@ align-items: center;
   font-style: normal;
   line-height: 1.43;
   letter-spacing: normal;
-  text-align: center;
   color: #b8b8b9;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  text-align: center;
 }
-.lista-footer {
+.footer-equipo {
   width: 100%;
-  height: 60px;
-  margin top: 20;
-  padding-left: 0;
   opacity: 0.75;
   font-family: var(--text);
   font-size: 14px;
-  font-weight: 600;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.43;
-  letter-spacing: normal;
-  text-align: center;
   color: var(--grey);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  list-style-type: none;
+  text-align: center;
 
+  .footer-quienessomos {
+    width: 100%;
+    opacity: 0.75;
+    font-family: var(--text);
+    font-size: 14px;
+    color: var(--grey);
+  }
+  .footer-contacto {
+    width: 100%;
+    opacity: 0.75;
+    font-family: var(--text);
+    font-size: 14px;
+    color: var(--grey);
 
-}
+  }
 .linkequipo {
   text-decoration: none;
   font-family: var(--text);
@@ -369,13 +366,4 @@ align-items: center;
 .bitmap {
   width: 115.9px;
   height: 45px;
-  margin-top: 30px;
-  padding-right: 30px;
-  padding-left: 100px;
-  padding-bottom: 15px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  
 }
