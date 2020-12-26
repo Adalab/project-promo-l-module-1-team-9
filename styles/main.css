@@ -7,6 +7,7 @@
   /*Fuentes*/
   --title: rubik;
   --text: OpenSans;
+  --claim: opensans-semibold;
 }
 /*header*/
 .header {
@@ -16,6 +17,67 @@
   height: 60px;
   background-color: var(--blue-green);
   width: 100vw;
+}
+.team {
+
+opacity: 0.95;
+background-color: var(--blue-green);
+width: 100%;
+height: 100%;
+font-family: var(--title);
+font-size: 16px;
+font-weight: 500;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.88;
+letter-spacing: normal;
+color: #ffffff;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+}
+.content {
+height: 45px;
+width: 100%;
+opacity: 0.9;
+background-color: var(--aqua);
+}
+.row {
+height: 45px;
+width: 100%;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+list-style: none;
+padding-left: 0;
+}
+
+.nav-1 {
+text-decoration: none;
+font-family: var(--title);
+color: #ffffff;
+font-size: 15px;
+padding-left: 16px;
+}
+.nav-2 {
+text-decoration: none;
+font-family: var(--title);
+color: #ffffff;
+font-size: 15px;
+padding-left: 10px;
+}
+.nav-3 {
+text-decoration: none;
+font-family: var(--title);
+color: #ffffff;
+font-size: 15px;
+padding-right: 17px;
+}
+.main {
+  width: 100vw;
+  border: 1px solid red;
 }
 
 .hero {
@@ -36,7 +98,7 @@
 }
 .lema {
   height: 50px;
-  font-family: OpenSans;
+  font-family: var(--claim);
   font-size: 18px;
   font-stretch: normal;
   font-style: normal;
@@ -46,62 +108,7 @@
   display: flex;
   align-items: center;
 }
-.team {
-  opacity: 0.95;
-  background-color: var(--blue-green);
-  width: 100%;
-  height: 100%;
-  font-family: var(--title);
-  font-size: 16px;
-  font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.88;
-  letter-spacing: normal;
-  color: #ffffff;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-}
-.content {
-  height: 45px;
-  width: 100%;
-  opacity: 0.9;
-  background-color: var(--aqua);
-}
-.row {
-  height: 45px;
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  list-style: none;
-  padding-left: 0;
-}
 
-.nav-1 {
-  text-decoration: none;
-  font-family: var(--title);
-  color: #ffffff;
-  font-size: 15px;
-  padding-left: 16px;
-}
-.nav-2 {
-  text-decoration: none;
-  font-family: var(--title);
-  color: #ffffff;
-  font-size: 15px;
-  padding-left: 10px;
-}
-.nav-3 {
-  text-decoration: none;
-  font-family: var(--title);
-  color: #ffffff;
-  font-size: 15px;
-  padding-right: 17px;
-}
 /*About us*/
 .rectangle-white {
   position: relative;
