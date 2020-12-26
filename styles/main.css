@@ -17,66 +17,72 @@
   height: 60px;
   background-color: var(--blue-green);
   width: 100vw;
+  position: fixed;
+  top: 0;
 }
-.team {
+.header-team {
+  opacity: 0.95;
+  background-color: var(--blue-green);
+  width: 100%;
+  height: 100%;
+  font-family: var(--title);
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.88;
+  letter-spacing: normal;
+  color: #ffffff;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.header-nav {
+  height: 45px;
+  width: 100%;
+  opacity: 0.9;
+  background-color: var(--aqua);
+}
+.header-list {
+  height: 45px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  padding-left: 0;
+}
 
-opacity: 0.95;
-background-color: var(--blue-green);
-width: 100%;
-height: 100%;
-font-family: var(--title);
-font-size: 16px;
-font-weight: 500;
-font-stretch: normal;
-font-style: normal;
-line-height: 1.88;
-letter-spacing: normal;
-color: #ffffff;
-display: flex;
-flex-direction: row;
-align-items: center;
-justify-content: center;
+.link-equipo {
+  text-decoration: none;
+  font-family: var(--title);
+  color: #ffffff;
+  font-size: 15px;
+  text-transform: uppercase;
+  padding-left: 16px;
 }
-.content {
-height: 45px;
-width: 100%;
-opacity: 0.9;
-background-color: var(--aqua);
+.link-quienes {
+  text-decoration: none;
+  font-family: var(--title);
+  color: #ffffff;
+  font-size: 15px;
+  text-transform: uppercase;
+  padding-left: 10px;
 }
-.row {
-height: 45px;
-width: 100%;
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-align-items: center;
-list-style: none;
-padding-left: 0;
-}
-
-.nav-1 {
-text-decoration: none;
-font-family: var(--title);
-color: #ffffff;
-font-size: 15px;
-padding-left: 16px;
-}
-.nav-2 {
-text-decoration: none;
-font-family: var(--title);
-color: #ffffff;
-font-size: 15px;
-padding-left: 10px;
-}
-.nav-3 {
-text-decoration: none;
-font-family: var(--title);
-color: #ffffff;
-font-size: 15px;
-padding-right: 17px;
+.link-contacto {
+  text-decoration: none;
+  font-family: var(--title);
+  color: #ffffff;
+  font-size: 15px;
+  text-transform: uppercase;
+  padding-right: 17px;
 }
 .main {
   width: 100vw;
+  /*borde para ver a que afecta*/
   border: 1px solid red;
 }
 
@@ -306,19 +312,17 @@ padding-right: 17px;
 .fas {
   color: var(--blue-green);
 }
-/*footer*/
-
-.rectangle-6 {
-   border: solid 1px #b8b8b9;
-  background-color: #ffffff;
+.footer {
+  width: 100%;
+  height: 250px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.nombre-del-grupo-2 {
+.copyright {
   width: 100%;
-  padding: 30px 74px 20px 74px;
+  padding: 0 74px 20px 74px;
   font-family: var(--text);
   font-size: 14px;
   font-weight: normal;
@@ -329,48 +333,32 @@ padding-right: 17px;
   color: #b8b8b9;
   text-align: center;
 }
-.footer-equipo {
+.footer-menu {
   width: 100%;
   opacity: 0.75;
-  font-family: var(--text);
+  font-family: var(--claim);
   font-size: 14px;
   color: var(--grey);
   text-align: center;
-
-  .footer-quienessomos {
-    width: 100%;
-    opacity: 0.75;
-    font-family: var(--text);
-    font-size: 14px;
-    color: var(--grey);
-  }
-  .footer-contacto {
-    width: 100%;
-    opacity: 0.75;
-    font-family: var(--text);
-    font-size: 14px;
-    color: var(--grey);
-
-  }
-.linkequipo {
+  padding-bottom: 30px;
+}
+.footer-list {
+  list-style: none;
+}
+.footer-link {
   text-decoration: none;
-  font-family: var(--text);
+  text-transform: uppercase;
+  font-family: var(--claim);
+  font-weight: 600;
   font-size: 14px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
   color: var(--grey);
 }
-.linkquienes-somos {
-  text-decoration: none;
-  font-family: var(--text);
-  font-size: 14px;
-  color: var(--grey);
-}
-.linkcontacto {
-  text-decoration: none;
-  font-family: var(--text);
-  font-size: 14px;
-  color: var(--grey);
-}
-.bitmap {
+.logo-adalab {
   width: 115.9px;
   height: 45px;
-}
+  
+
