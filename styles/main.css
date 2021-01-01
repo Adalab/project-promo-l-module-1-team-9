@@ -118,8 +118,8 @@
 /*About us*/
 .rectangle-white {
   position: relative;
-  height: 230px;
-  padding: 60px 0px;
+  
+  padding: 20px 40px 20px 20px;
   background-color: var(--white);
 } /*background-color: var(--white)*/
 .Title-Equipo {
@@ -137,7 +137,7 @@
   color: #14d9c4;
 }
 .Description {
-  margin: 20px 0 0;
+  margin: 10px 0 0;
   justify-content: center;
   font-family: OpenSans;
   font-size: 16px;
@@ -150,7 +150,7 @@
   color: #54585a;
 }
 .Description1 {
-  margin: 20px 0 0;
+  margin: 10px 0 0;
   justify-content: center;
   font-family: OpenSans;
   font-size: 16px;
@@ -174,7 +174,7 @@
 }
 /*Fortalezas y debilidades*/
 .Rectangle {
-  height: 504px;
+
   margin: 0 0 0 0;
   padding: 30px 15px 45px;
   background-color: rgba(184, 184, 185, 0.2);
@@ -239,7 +239,6 @@
 }
 /*quienes somos*/
 .intro {
-  height: 2560px;
   margin: 0 0 0;
   padding: 30px 15px 45px;
   background-color: #ffffff;
@@ -281,9 +280,20 @@
   text-align: center;
   color: var(--black);
 }
+
+.img{
+  width:180px;
+  height: 180px;
+  margin: 20px 80px 20px 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  border: solid 5px rgba(0, 0, 0, 0.08);
+
+}
 .description {
-  height: 200px;
-  margin: 60px 0 15px;
+  margin: 15px 65px 10px 65px;
   font-family: OpenSans;
   font-size: 16px;
   font-weight: normal;
@@ -295,11 +305,12 @@
   color: #54585a;
 }
 .iconos {
-  align-items: center;
+ align-content: space-between;
 }
 .social {
   display: flex;
-  justify-content: center;
+  margin: 20px 98px 45px;
+  size: 16px;
   justify-content: space-around;
   padding-left: 0%;
   list-style: none;
@@ -308,9 +319,11 @@
 }
 .fab {
   color: var(--blue-green);
+  transform: scale(1.5);
 }
 .fas {
   color: var(--blue-green);
+  transform: scale(1.5);
 }
 .footer {
   width: 100%;
@@ -360,5 +373,7 @@
 .logo-adalab {
   width: 115.9px;
   height: 45px;
-  
+}
+
+
 
