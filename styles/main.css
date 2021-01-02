@@ -173,7 +173,7 @@
   background-color: white;
 }
 /*Fortalezas y debilidades*/
-.Rectangle {
+.strengths-box {
   margin: 0 0 0 0;
   padding: 30px 15px 45px;
   background-color: rgba(184, 184, 185, 0.2);
@@ -182,7 +182,7 @@
   justify-content: center;
   align-items: center;
 }
-.title-1 {
+.strengths-title {
   height: 45px;
   margin: 0;
   font-family: var(--title);
@@ -196,7 +196,7 @@
   color: var(--blue-green);
   /*background-color: blue;*/
 }
-.text-1 {
+.strengths-text {
   height: 192px;
   margin: 0 0 30px;
   font-family: var(--text);
@@ -210,7 +210,7 @@
   color: #54585a;
   /*background-color: rgb(231, 149, 149);*/
 }
-.title-2 {
+.weaknesses-title {
   height: 45px;
   margin: 0 0 0;
   font-family: var(--title);
@@ -223,7 +223,7 @@
   text-align: center;
   color: var(--blue-green);
 }
-.text-2 {
+.weaknesses-text {
   height: 192px;
   margin: 0 0 0;
   font-family: var(--text);
@@ -237,7 +237,7 @@
   color: #54585a;
 }
 /*quienes somos*/
-.intro {
+.who-we-are-box {
   margin: 0 0 0;
   padding: 30px 15px 45px;
   background-color: #ffffff;
@@ -246,7 +246,7 @@
   justify-content: center;
   align-items: center;
 }
-.who {
+.who-we-are-title {
   height: 45px;
   margin: 0 47.5px 30px 49.5px;
   font-family: var(--title);
@@ -302,7 +302,7 @@
   text-align: center;
   color: #54585a;
 }
-.iconos {
+.icons {
   align-content: space-between;
 }
 .social {
