@@ -118,7 +118,7 @@
 /*About us*/
 .rectangle-white {
   position: relative;
-  
+
   padding: 20px 40px 20px 20px;
   background-color: var(--white);
 } /*background-color: var(--white)*/
@@ -174,7 +174,6 @@
 }
 /*Fortalezas y debilidades*/
 .Rectangle {
-
   margin: 0 0 0 0;
   padding: 30px 15px 45px;
   background-color: rgba(184, 184, 185, 0.2);
@@ -281,8 +280,8 @@
   color: var(--black);
 }
 
-.img{
-  width:180px;
+.img {
+  width: 180px;
   height: 180px;
   margin: 20px 80px 20px 75px;
   display: flex;
@@ -290,7 +289,6 @@
   justify-content: center;
   border-radius: 4px;
   border: solid 5px rgba(0, 0, 0, 0.08);
-
 }
 .description {
   margin: 15px 65px 10px 65px;
@@ -305,7 +303,7 @@
   color: #54585a;
 }
 .iconos {
- align-content: space-between;
+  align-content: space-between;
 }
 .social {
   display: flex;
@@ -374,6 +372,22 @@
   width: 115.9px;
   height: 45px;
 }
-
-
-
+@media all and (min-width: 768px) {
+  .header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .header-team {
+    text-align: right;
+    justify-content: flex-start;
+    padding: 15px 0px 15px 45px;
+  }
+  .header-nav {
+    align-items: center;
+    background-color: var(--blue-green);
+    justify-content: flex-end;
+    padding: 0px 65px 14px 0;
+  }
+}
