@@ -368,6 +368,7 @@
   width: 115.9px;
   height: 45px;
 }
+
 @media all and (min-width: 768px) {
   .header {
     display: flex;
