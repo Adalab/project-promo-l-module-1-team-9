@@ -337,10 +337,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border-top: 1px solid #b8b8b9;
 }
 .copyright {
   width: 100%;
-  padding: 0 74px 20px 74px;
+  padding: 0px 74px 20px 74px;
   font-family: var(--text);
   font-size: 14px;
   font-weight: normal;
@@ -359,6 +360,7 @@
   color: var(--grey);
   text-align: center;
   padding-bottom: 30px;
+  padding-top: -10px;
 }
 .footer-list {
   list-style: none;
