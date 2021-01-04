@@ -11,9 +11,9 @@
   --white: white;
   --grey: #54585a;
   /*Fuentes*/
-  --title: rubik;
-  --text: OpenSans;
-  --claim: opensans-semibold;
+  --title: "Rubik", sans-serif;
+  --text: "Open Sans", sans-serif;
+  --claim: "Open Sans", sans-serif;
 }
 /*header*/
 .header {
@@ -112,7 +112,8 @@
   transform: translate(0px, 25px);
 }
 .lema {
-  height: 50px;
+  width: 290px;
+  height: 80px;
   font-family: var(--claim);
   font-size: 18px;
   font-stretch: normal;
@@ -122,6 +123,8 @@
   color: var(--black);
   display: flex;
   align-items: center;
+  text-align: center;
+  padding: 15px;
 }
 
 /*About us*/
@@ -149,7 +152,7 @@
 .Description {
   margin: 10px 0 0;
   justify-content: center;
-  font-family: OpenSans;
+  font-family: var(--text);
   font-size: 16px;
   font-weight: normal;
   font-stretch: normal;
@@ -162,7 +165,7 @@
 .Description1 {
   margin: 10px 0 0;
   justify-content: center;
-  font-family: OpenSans;
+  font-family: var(--text);
   font-size: 16px;
   font-weight: normal;
   font-stretch: normal;
@@ -276,7 +279,7 @@
 .name {
   height: 45px;
   margin: 15px 70.5px 0 72.5px;
-  font-family: OpenSans;
+  font-family: var(--text);
   font-size: 20px;
   font-weight: normal;
   font-stretch: normal;
@@ -299,7 +302,7 @@
 }
 .description {
   margin: 0px 15px 15px 15px;
-  font-family: OpenSans;
+  font-family: var(--text);
   font-size: 16px;
   font-weight: normal;
   font-stretch: normal;
