@@ -25,6 +25,7 @@
   width: 100vw;
   position: fixed;
   top: 0;
+  z-index: 99;
 }
 .header-team {
   opacity: 0.95;
@@ -44,12 +45,14 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  z-index: 99;
 }
 .header-nav {
   height: 45px;
   width: 100%;
   opacity: 0.9;
   background-color: var(--aqua);
+  z-index: 99;
 }
 .header-list {
   height: 45px;
@@ -139,6 +142,7 @@
   letter-spacing: normal;
   text-align: center;
   color: #14d9c4;
+  text-transform: uppercase;
 }
 .Description {
   margin: 10px 0 0;
@@ -260,6 +264,7 @@
   letter-spacing: normal;
   text-align: center;
   color: var(--blue-green);
+  text-transform: uppercase;
 }
 .image {
   height: 180px;
