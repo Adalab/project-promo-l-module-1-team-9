@@ -413,4 +413,23 @@
   .strengths-box2 {
     margin: 45px 45px 60px 0;
   }
+  .footer {
+    align-items: flex-start;
+    height: 170px;
+  }
+  .copyright {
+    transform: translate(-285px, 50px);
+  }
+  .footer-nav {
+    transform: translate(550px, 10px);
+  }
+  .footer-link {
+    line-height: 2.14;
+  }
+  .footer-list {
+    text-align: right;
+  }
+  .logo-adalab {
+    transform: translate(45px, -70px);
+  }
 }
