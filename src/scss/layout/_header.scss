@@ -13,7 +13,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
   }
 }
 .header-text {
@@ -40,6 +40,9 @@
     justify-content: flex-start;
     padding: 15px 0px 15px 45px;
   }
+  @media all and (min-width: 1200px) {
+    padding: 15px 0px 15px 142px;
+  }
 }
 .header-nav {
   height: 45px;
@@ -50,19 +53,24 @@
   @media all and (min-width: 768px) {
     align-items: center;
     background-color: var(--blue-green);
-    justify-content: flex-end;
-    padding: 0px 65px 14px 0;
   }
 }
 .header-list {
   height: 45px;
-  width: 100vw;
+  width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   list-style: none;
   padding-left: 0;
+  @media all and (min-width: 768px) {
+    justify-content: flex-start;
+  }
+  @media all and (min-width: 1200px) {
+    justify-content: center;
+    padding-right: 80px;
+  }
 }
 
 .link-team {
@@ -71,7 +79,7 @@
   color: #ffffff;
   font-size: 15px;
   text-transform: uppercase;
-  padding: 10px;
+  padding: 10px 10px 10px 12px;
 }
 .link-aboutus {
   text-decoration: none;
@@ -87,5 +95,5 @@
   color: #ffffff;
   font-size: 15px;
   text-transform: uppercase;
-  padding: 10px;
+  padding: 10px 12px 10px 0;
 }
