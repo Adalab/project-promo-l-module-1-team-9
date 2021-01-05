@@ -65,19 +65,13 @@
   @media all and (min-width: 768px) {
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
   }
 }
-.strengths-box1 {
+.strengths-box-small {
   @media all and (min-width: 768px) {
-    margin: 45px 0px 60px 45px;
-    padding: 0 30px 0 0;
-  }
-}
-.strengths-box2 {
-  margin: 30px 0px 15px 0px;
-  @media all and (min-width: 768px) {
-    margin: 45px 45px 60px 0;
+    margin: 12.5px 22.5px;
+    width: 50%;
   }
 }
 .strengths-title {
@@ -91,6 +85,7 @@
   letter-spacing: normal;
   text-align: center;
   color: var(--blue-green);
+  padding-bottom: 15px;
 }
 .strengths-text {
   margin: 0;
@@ -115,6 +110,7 @@
   letter-spacing: normal;
   text-align: center;
   color: var(--blue-green);
+  padding-bottom: 15px;
 }
 .weaknesses-text {
   margin: 0;
