@@ -1,6 +1,11 @@
-// fonts
-$font-main: 'Roboto', sans-serif;
-
-// colors
-$color-bg: #f3f4f5;
-$color-secondary: #999;
+:root {
+  /*Colores*/
+  --blue-green: #099d8d;
+  --aqua: #14d9c4;
+  --white: white;
+  --grey: #54585a;
+  /*Fuentes*/
+  --title: "Rubik", sans-serif;
+  --text: "Open Sans", sans-serif;
+  --claim: "Open Sans", sans-serif;
+}
