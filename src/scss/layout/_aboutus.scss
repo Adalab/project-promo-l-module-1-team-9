@@ -21,6 +21,11 @@
   color: var(--blue-green);
   text-transform: uppercase;
 }
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
 .adalaber-image {
   height: 180px;
   width: 180px;
@@ -71,10 +76,13 @@
   display: flex;
   margin: 0px 98px 45px 98px;
   size: 16px;
-  justify-content: space-around;
+  justify-content: center;
   padding-left: 0%;
   list-style: none;
   color: var(--brand-1);
+}
+.social-link {
+  padding: 10px;
 }
 .fab {
   color: var(--blue-green);
