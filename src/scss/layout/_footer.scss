@@ -1,8 +1,73 @@
-.page__footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100vw;
-  padding: 1rem;
-  color: $color-secondary;
+.footer {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #b8b8b9;
+  @media all and (min-width: 768px) {
+    align-items: flex-start;
+    height: 170px;
+  }
+}
+.copyright {
+  width: 100%;
+  padding: 0px 74px 20px 74px;
+  font-family: var(--text);
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+  color: #b8b8b9;
+  text-align: center;
+  text-transform: capitalize;
+  @media all and (min-width: 768px) {
+    transform: translate(-285px, 50px);
+  }
+}
+.footer-menu {
+  width: 100%;
+  opacity: 0.75;
+  font-family: var(--claim);
+  font-size: 14px;
+  color: var(--grey);
+  text-align: center;
+  padding-bottom: 30px;
+  padding-top: -10px;
+}
+.footer-list {
+  list-style: none;
+  @media all and (min-width: 768px) {
+    text-align: right;
+  }
+}
+.footer-nav {
+  @media all and (min-width: 768px) {
+    transform: translate(550px, 10px);
+  }
+}
+.footer-link {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: var(--claim);
+  font-weight: 600;
+  font-size: 14px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+  color: var(--grey);
+  @media all and (min-width: 768px) {
+    line-height: 2.14;
+  }
+}
+.logo-adalab {
+  width: 115.9px;
+  height: 45px;
+  @media all and (min-width: 768px) {
+    transform: translate(45px, -70px);
+  }
 }
