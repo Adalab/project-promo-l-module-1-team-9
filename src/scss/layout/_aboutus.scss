@@ -71,6 +71,14 @@
 }
 .icons {
   align-content: space-between;
+  
+
+.link{
+  text-decoration:none;
+  display:flex
+
+}
+
 }
 .social {
   display: flex;
@@ -80,15 +88,25 @@
   padding-left: 0%;
   list-style: none;
   color: var(--brand-1);
+  
 }
 .social-link {
   padding: 10px;
+ 
+ 
 }
+
 .fab {
   color: var(--blue-green);
-  transform: scale(1.5);
+  padding: 0px 5px 0px 0px;
+
+  
 }
 .fas {
   color: var(--blue-green);
-  transform: scale(1.5);
+  padding: 0px 5px 0px 0px;
+ 
+  
 }
+
+
