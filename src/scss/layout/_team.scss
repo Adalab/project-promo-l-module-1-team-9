@@ -68,16 +68,10 @@
     align-items: flex-start;
   }
 }
-.box1 {
-  margin-bottom: 30px;
-  @media all and (min-width: 768px) {
-    margin: 0 15px 0 45px;
-  }
-}
 
 .strengths-box-small {
   @media all and (min-width: 768px) {
-    margin: 12.5px 0 22.5px 0;
+    margin: 12.5px 15px 22.5px 15px;
     width: 50%;
   }
 }
