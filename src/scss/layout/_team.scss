@@ -74,6 +74,9 @@
     margin: 12.5px 15px 22.5px 15px;
     width: 50%;
   }
+  @media all and (min-width: 1200px) and (max-width: 1500px) {
+    margin: 45px 60px 60px 60px;
+  }
 }
 .strengths-title {
   margin: 0;
