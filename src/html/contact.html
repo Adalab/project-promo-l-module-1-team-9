@@ -1,26 +1,57 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Adalab Web Starter Kit</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="./assets/css/main.css" />
-    <link rel="icon" href="./assets/images/favicon.png" />
-  </head>
 
-  <body>
-    <div class="page">
-      <include src="./partials/header.html" title="Otra página del starter kit"></include>
-      <main>
-        <p>
-          Esta es otra segunda página del Starter kit. Mira el fichero
-          <code class="code">./src/html/partials/main.html</code> para cómo hemos creado el enlace
-          que te ha traído hasta aquí.
-        </p>
-      </main>
-      <include src="./partials/footer.html"></include>
-    </div>
-    <script src="./assets/js/main.js"></script>
-  </body>
+<head>
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Rubik:wght@500&display=swap"
+    rel="stylesheet" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./assets/css/main.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+  <title>Equipo Adatools</title>
+</head>
+
+<body>
+  <include src="./partials/header.html"></include>
+
+  <main class="main">
+    <section class="hero"></section>
+    <section class="contact">
+      <h2 class="contact-title">Contacto</h2>
+      <div class="contact-text-box">
+        <p class="contact-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita modi esse
+          obcaecati repudiandae soluta velit magnam, fugit nostrum consequuntur alias dicta tempore eos amet commodi,
+          ducimus laudantium quae. Debitis, quia?</p>
+        <small>Todos los campos marcados con <span class="asterisk">*</span> son obligatorios</small>
+      </div>
+      <form class="contact-form" action="https://formspree.io/f/mbjpqobw" method="POST">
+        <div class="form-field">
+          <label for="name">Nombre completo <span class="asterisk">*</span></label>
+          <input class="form-field-info" id="name" type="text" name="name" placeholder="Nombre..." required />
+        </div>
+        <div class="form-field">
+          <label for="email">Email <span class="asterisk">*</span></label>
+          <input class="form-field-info" id="email" type="email" name="email" placeholder="nombre.apellidos@mail.com"
+            required />
+        </div>
+        <div class="form-field">
+          <label for="telephone">Teléfono</label>
+          <input class="form-field-info" id="telephone" type="tel" name="telephone" placeholder="Ej: 123456789" />
+        </div>
+        <div class="form-field">
+          <label for="message">Mensaje <span class="asterisk">*</span></label>
+          <input class="form-field-info" id="message" type="text-area" name="message" placeholder="¿Qué necesitas?"
+            required />
+        </div>
+        <div class="form-submit">
+          <input type="submit" value="Enviar" />
+        </div>
+      </form>
+    </section>
+  </main>
+  <include src="./partials/footer.html"></include>
+</body>
+
 </html>
