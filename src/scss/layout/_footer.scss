@@ -1,5 +1,5 @@
 .footer {
-  width: 100vw;
+  width: 100vw769;
   height: 250px;
   display: flex;
   flex-direction: column;
@@ -9,6 +9,9 @@
   @media all and (min-width: 768px) {
     align-items: flex-start;
     height: 170px;
+  }
+  @media all and (min-width: 1200px) {
+    height: 161px;
   }
 }
 .copyright {
@@ -25,7 +28,9 @@
   text-align: center;
   text-transform: uppercase;
   @media all and (min-width: 768px) {
-    transform: translate(-285px, 50px);
+    transform: translate(-280px, 50px);
+  }
+  @media all and (min-width: 1200px) {
   }
 }
 .footer-menu {
@@ -46,7 +51,7 @@
 }
 .footer-nav {
   @media all and (min-width: 768px) {
-    transform: translate(550px, 10px);
+    transform: translate(570px, 10px);
   }
 }
 .footer-link {
