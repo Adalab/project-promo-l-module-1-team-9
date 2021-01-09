@@ -44,6 +44,10 @@
     padding: 15px 0px 15px 142px;
   }
 }
+.linkadatools {
+  text-decoration: none;
+  color: #ffffff;
+}
 .header-nav {
   height: 45px;
   width: 100vw;
@@ -79,15 +83,16 @@
   color: #ffffff;
   font-size: 15px;
   text-transform: uppercase;
-  padding: 10px 10px 10px 12px;
+  padding: 10px 5px 10px 12px;
 }
+
 .link-aboutus {
   text-decoration: none;
   font-family: var(--title);
   color: #ffffff;
   font-size: 15px;
   text-transform: uppercase;
-  padding: 10px;
+  padding: 10px 10px 10px 9px;
 }
 .link-contact {
   text-decoration: none;
@@ -95,5 +100,5 @@
   color: #ffffff;
   font-size: 15px;
   text-transform: uppercase;
-  padding: 10px 12px 10px 0;
+  padding: 10px 14px 10px 5px;
 }
