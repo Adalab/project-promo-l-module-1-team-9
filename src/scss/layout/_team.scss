@@ -23,7 +23,7 @@
   text-transform: uppercase;
 }
 .team-description {
-  margin: 10px 0 0;
+  margin: 20px 20px 10px 20px;
   justify-content: center;
   font-family: var(--text);
   font-size: 16px;
@@ -34,9 +34,17 @@
   letter-spacing: normal;
   text-align: center;
   color: #54585a;
+  @media all and (min-width: 768px) {
+    padding: 20px 45px 30px 45px
+    }
+  @media all and (min-width: 1200px) {
+  padding: 10px 300px 20px 300px;
+  }
 }
+
+
 .team-description1 {
-  margin: 10px 0 0;
+  margin: 20px 20px 20px 20px;
   justify-content: center;
   font-family: var(--text);
   font-size: 16px;
@@ -47,6 +55,13 @@
   letter-spacing: normal;
   text-align: center;
   color: #54585a;
+  @media all and (min-width: 768px) {
+    padding: 0px 45px 30px 45px
+    }
+  @media all and (min-width: 1200px) {
+  padding: 10px 300px 20px 300px;
+  }
+
 }
 .rectangle-small {
   box-sizing: border-box;
