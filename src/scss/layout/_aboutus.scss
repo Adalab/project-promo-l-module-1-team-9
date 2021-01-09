@@ -9,10 +9,30 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  @media all and (min-width: 1200px) {
+    margin: 0 138px 0px 138px;
+  }
+}
+.adalaber {
+  @media all and (min-width: 768px) {
+    display: flex;
+    flex-direction: row;
+    margin: 0 30px 60px 30px;
+  }
+}
+.adalaber:nth-child(odd) {
+  @media all and (min-width: 768px) {
+    display: flex;
+    flex-direction: row-reverse;
+    & .description-container {
+      align-items: right;
+    }
+  }
 }
 .aboutus-title {
   height: 45px;
-  margin: 0 47.5px 30px 49.5px;
+  /*margin: 0 47.5px 30px 49.5px;*/
+  margin-bottom: 30px;
   font-family: var(--title);
   font-size: 24px;
   font-weight: 500;
@@ -23,19 +43,30 @@
   text-align: center;
   color: var(--blue-green);
   text-transform: uppercase;
+  @media all and (min-width: 768px) {
+    margin-bottom: 40px;
+  }
 }
+
 .image-container {
   display: flex;
   justify-content: center;
   align-content: center;
 }
+
 .adalaber-image {
   height: 180px;
   width: 180px;
-  margin: 0 55px 15px;
+  margin: 0 55px 0;
   border-radius: 4px;
   border: solid 5px rgba(0, 0, 0, 0.08);
+  @media all and (min-width: 768px) {
+    height: 205px;
+    width: 205px;
+    margin: 0;
+  }
 }
+
 .adalaber-name {
   height: 45px;
   margin: 15px 70.5px 0 72.5px;
@@ -48,6 +79,10 @@
   letter-spacing: normal;
   text-align: center;
   color: var(--black);
+  @media all and (min-width: 768px) {
+    text-align: left;
+    margin: 0;
+  }
 }
 
 .img {
@@ -71,6 +106,30 @@
   letter-spacing: normal;
   text-align: center;
   color: #54585a;
+  @media all and (min-width: 768px) {
+    text-align: left;
+    margin: 0;
+  }
+}
+.adalaber-description-right {
+  @media all and (min-width: 768px) {
+    text-align: right;
+  }
+}
+.adalaber-name-right {
+  @media all and (min-width: 768px) {
+    text-align: right;
+  }
+}
+.description-container {
+  @media all and (min-width: 768px) {
+    margin-left: 30px;
+  }
+}
+.description-container-right {
+  @media all and (min-width: 768px) {
+    margin-right: 30px;
+  }
 }
 .icons {
   align-content: space-between;
@@ -88,6 +147,17 @@
   padding-left: 0%;
   list-style: none;
   color: var(--brand-1);
+  @media all and (min-width: 768px) {
+    justify-content: start;
+    margin: 0;
+    margin-top: 15px;
+  }
+}
+.social-right {
+  @media all and (min-width: 768px) {
+    justify-content: flex-end;
+    margin: 0;
+  }
 }
 .social-link {
   padding: 10px;

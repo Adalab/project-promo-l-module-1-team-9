@@ -7,8 +7,13 @@
   align-items: center;
   border-top: 1px solid #b8b8b9;
   @media all and (min-width: 768px) {
-    align-items: flex-start;
     height: 170px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 33% 33% 33%;
+  }
+  @media all and (min-width: 1200px) {
+    height: 161px;
   }
 }
 .copyright {
@@ -25,7 +30,13 @@
   text-align: center;
   text-transform: uppercase;
   @media all and (min-width: 768px) {
-    transform: translate(-285px, 50px);
+    grid-column: span 1;
+    grid-row: 1/2;
+    text-align: left;
+    padding: 30px 0 15px 45px;
+  }
+  @media all and (min-width: 1200px) {
+    padding-left: 138px;
   }
 }
 .footer-menu {
@@ -42,11 +53,16 @@
   list-style: none;
   @media all and (min-width: 768px) {
     text-align: right;
+    padding-right: 45px;
+  }
+  @media all and (min-width: 1200px) {
+    padding-right: 138px;
   }
 }
 .footer-nav {
   @media all and (min-width: 768px) {
-    transform: translate(550px, 10px);
+    grid-column: 2/3;
+    grid-row: span 3;
   }
 }
 .footer-link {
@@ -64,10 +80,18 @@
     line-height: 2.14;
   }
 }
-.logo-adalab {
-  width: 115.9px;
-  height: 45px;
+
+.footer-logo {
   @media all and (min-width: 768px) {
-    transform: translate(45px, -70px);
+    grid-column: 1/2;
+    grid-row: 2/3;
+    padding-left: 45px;
+  }
+  @media all and (min-width: 1200px) {
+    padding-left: 138px;
+  }
+  .logo-adalab {
+    width: 115.9px;
+    height: 45px;
   }
 }
