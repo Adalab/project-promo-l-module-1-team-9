@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Rubik:wght@500&display=swap"
+    rel="stylesheet" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./assets/css/main.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+  <title>Equipo Adatools</title>
+</head>
+
+<body>
+  <header class="header">
+    <h1 id="adatools" class="header-text"><a class="linkadatools" title="ir a inicio" href="./index.html#adatools">Adatools</a></h1>
+
+    <nav class="header-nav">
+      <ul class="header-list">
+        <li class="row">
+          <a class="link-team" title="Ir a equipo" href="./index.html#team">Equipo</a>
+        </li>
+        <li class="row">
+          <a class="link-aboutus" title="Ir a quiénes somos" href="./index.html#aboutus">Quiénes somos</a>
+        </li>
+        <li class="row">
+          <a class="link-contact" title="Ir a contacto" href="contact.html">Contacto</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main">
+    <section class="hero"></section>
+    <section class="contact">
+      <h2 class="contact-title">Contacto</h2>
+      <div class="contact-text-box">
+        <p class="contact-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita modi esse
+          obcaecati repudiandae soluta velit magnam, fugit nostrum consequuntur alias dicta tempore eos amet commodi,
+          ducimus laudantium quae. Debitis, quia?</p>
+        <small>Todos los campos marcados con <span class="asterisk">*</span> son obligatorios</small>
+      </div>
+      <form class="contact-form" action="https://formspree.io/f/mbjpqobw" method="POST">
+        <div class="form-field">
+          <label for="name">Nombre completo <span class="asterisk">*</span></label>
+          <input class="form-field-info" id="name" type="text" name="name" placeholder="Nombre..." required />
+        </div>
+        <div class="form-field">
+          <label for="email">Email <span class="asterisk">*</span></label>
+          <input class="form-field-info" id="email" type="email" name="email" placeholder="nombre.apellidos@mail.com"
+            required />
+        </div>
+        <div class="form-field">
+          <label for="telephone">Teléfono</label>
+          <input class="form-field-info" id="telephone" type="tel" name="telephone" placeholder="Ej: 123456789" />
+        </div>
+        <div class="form-field">
+          <label for="message">Mensaje <span class="asterisk">*</span></label>
+          <input class="form-field-info" id="message" type="text-area" name="message" placeholder="¿Qué necesitas?"
+            required />
+        </div>
+        <div class="form-submit">
+          <input type="submit" value="Enviar" />
+        </div>
+      </form>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="copyright">Adatools ©2020</div>
+    <nav class="footer-nav">
+      <ul class="footer-menu">
+        <li class="footer-list">
+          <a href="./index.html#team" class="footer-link" title="ir a equipo">Equipo</a>
+        </li>
+        <li class="footer-list">
+          <a href="./index.html#aboutus" class="footer-link" title="ir a quienes somos">Quiénes somos</a>
+        </li>
+        <li class="footer-list">
+          <a href="contact.html" class="footer-link" title="ir a contacto">Contacto</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="footer-logo">
+      <a href="https://adalab.es/" target="_blank"><img class="logo-adalab" src="./assets/images/logo-adalab.png"
+          alt="ir a home adalab" title="ir a Adalab" /></a>
+    </div>
+  </footer>
+</body>
+
+</html>
