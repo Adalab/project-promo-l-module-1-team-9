@@ -6,7 +6,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 1;
+  z-index: 0;
 }
 .claim-box {
   display: flex;
@@ -14,7 +14,12 @@
   align-self: flex-end;
   background-color: $white;
   z-index: 2;
+  padding: 15px 30px;
   transform: translate(0px, 25px);
+  @media all and (min-width: 768px) {
+    opacity: 0.8;
+    transform: translate(-140px, 0px);
+  }
 }
 .claim-text {
   height: 50px;
@@ -29,4 +34,8 @@
   align-items: center;
   text-align: center;
   padding: 15px;
+  @media all and (min-width: 1200px) {
+    font-size: 24px;
+    opacity: 0.8;
+  }
 }
