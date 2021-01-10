@@ -12,19 +12,19 @@
   display: flex;
   align-items: center;
   align-self: flex-end;
-  background-color: #ffffff;
+  background-color: $white;
   z-index: 2;
   transform: translate(0px, 25px);
 }
 .claim-text {
   height: 50px;
-  font-family: var(--claim);
+  font-family: $claim;
   font-size: 18px;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.39;
   letter-spacing: normal;
-  color: var(--black);
+  color: $black;
   display: flex;
   align-items: center;
   text-align: center;

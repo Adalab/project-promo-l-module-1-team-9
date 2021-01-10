@@ -4,14 +4,14 @@
 .team-box {
   position: relative;
   padding: 60px 15px 30px 15px;
-  background-color: var(--white);
-} /*background-color: var(--white)*/
+  background-color: $white;
+}
 
 .team-title {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: var(--title);
+  font-family: $title;
   font-size: 24px;
   font-weight: 500;
   font-stretch: normal;
@@ -19,13 +19,13 @@
   line-height: 1.88;
   letter-spacing: normal;
   text-align: center;
-  color: #14d9c4;
+  color: $aqua;
   text-transform: uppercase;
 }
 .team-description {
   margin: 20px 20px 10px 20px;
   justify-content: center;
-  font-family: var(--text);
+  font-family: $text;
   font-size: 16px;
   font-weight: normal;
   font-stretch: normal;
@@ -33,20 +33,19 @@
   line-height: 1.5;
   letter-spacing: normal;
   text-align: center;
-  color: #54585a;
+  color: $grey;
   @media all and (min-width: 768px) {
-    padding: 20px 45px 30px 45px
-    }
+    padding: 20px 45px 30px 45px;
+  }
   @media all and (min-width: 1200px) {
-  padding: 10px 300px 20px 300px;
+    padding: 10px 300px 20px 300px;
   }
 }
-
 
 .team-description1 {
   margin: 20px 20px 20px 20px;
   justify-content: center;
-  font-family: var(--text);
+  font-family: $text;
   font-size: 16px;
   font-weight: normal;
   font-stretch: normal;
@@ -54,14 +53,13 @@
   line-height: 1.5;
   letter-spacing: normal;
   text-align: center;
-  color: #54585a;
+  color: $grey;
   @media all and (min-width: 768px) {
-    padding: 0px 45px 30px 45px
-    }
-  @media all and (min-width: 1200px) {
-  padding: 10px 300px 20px 300px;
+    padding: 0px 45px 30px 45px;
   }
-
+  @media all and (min-width: 1200px) {
+    padding: 10px 300px 20px 300px;
+  }
 }
 .rectangle-small {
   box-sizing: border-box;
@@ -101,7 +99,7 @@
 }
 .strengths-title {
   margin: 0;
-  font-family: var(--title);
+  font-family: $title;
   font-size: 22px;
   font-weight: 500;
   font-stretch: normal;
@@ -109,12 +107,12 @@
   line-height: 2.05;
   letter-spacing: normal;
   text-align: center;
-  color: var(--blue-green);
+  color: $blue-green;
   padding-bottom: 15px;
 }
 .strengths-text {
   margin: 0;
-  font-family: var(--text);
+  font-family: $text;
   font-size: 16px;
   font-weight: normal;
   font-stretch: normal;
@@ -122,11 +120,11 @@
   line-height: 1.5;
   letter-spacing: normal;
   text-align: center;
-  color: #54585a;
+  color: $grey;
 }
 .weaknesses-title {
   margin: 0;
-  font-family: var(--title);
+  font-family: $title;
   font-size: 22px;
   font-weight: 500;
   font-stretch: normal;
@@ -134,12 +132,12 @@
   line-height: 2.05;
   letter-spacing: normal;
   text-align: center;
-  color: var(--blue-green);
+  color: $blue-green;
   padding-bottom: 15px;
 }
 .weaknesses-text {
   margin: 0;
-  font-family: var(--text);
+  font-family: $text;
   font-size: 16px;
   font-weight: normal;
   font-stretch: normal;
@@ -147,5 +145,5 @@
   line-height: 1.5;
   letter-spacing: normal;
   text-align: center;
-  color: #54585a;
+  color: $grey;
 }

@@ -5,7 +5,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border-top: 1px solid #b8b8b9;
+  border-top: 1px solid $lightgrey;
   @media all and (min-width: 768px) {
     height: 170px;
     display: grid;
@@ -19,14 +19,14 @@
 .copyright {
   width: 100%;
   padding: 0px 74px 20px 74px;
-  font-family: var(--text);
+  font-family: $text;
   font-size: 14px;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.43;
   letter-spacing: normal;
-  color: #b8b8b9;
+  color: $lightgrey;
   text-align: center;
   text-transform: uppercase;
   @media all and (min-width: 768px) {
@@ -42,9 +42,9 @@
 .footer-menu {
   width: 100%;
   opacity: 0.75;
-  font-family: var(--claim);
+  font-family: $claim;
   font-size: 14px;
-  color: var(--grey);
+  color: $grey;
   text-align: center;
   padding-bottom: 30px;
   padding-top: -10px;
@@ -68,14 +68,14 @@
 .footer-link {
   text-decoration: none;
   text-transform: uppercase;
-  font-family: var(--claim);
+  font-family: $claim;
   font-weight: 600;
   font-size: 14px;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.43;
   letter-spacing: normal;
-  color: var(--grey);
+  color: $grey;
   @media all and (min-width: 768px) {
     line-height: 2.14;
   }

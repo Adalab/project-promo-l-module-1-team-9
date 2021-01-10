@@ -1,9 +1,9 @@
 .header {
-  font-family: var(--title);
-  color: #ffffff;
+  font-family: $title;
+  color: $white;
   opacity: 0.95;
   height: 60px;
-  background-color: var(--blue-green);
+  background-color: $blue-green;
   width: 100vw;
   position: fixed;
   top: 0;
@@ -18,17 +18,17 @@
 }
 .header-text {
   opacity: 0.95;
-  background-color: var(--blue-green);
+  background-color: $blue-green;
   width: 100%;
   height: 100%;
-  font-family: var(--title);
+  font-family: $title;
   font-size: 16px;
   font-weight: 500;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.88;
   letter-spacing: normal;
-  color: #ffffff;
+  color: $white;
   text-transform: uppercase;
   display: flex;
   flex-direction: row;
@@ -46,17 +46,17 @@
 }
 .linkadatools {
   text-decoration: none;
-  color: #ffffff;
+  color: $white;
 }
 .header-nav {
   height: 45px;
   width: 100vw;
   opacity: 0.9;
-  background-color: var(--aqua);
+  background-color: $aqua;
   z-index: 99;
   @media all and (min-width: 768px) {
     align-items: center;
-    background-color: var(--blue-green);
+    background-color: $blue-green;
   }
 }
 .header-list {
@@ -79,8 +79,8 @@
 
 .link-team {
   text-decoration: none;
-  font-family: var(--title);
-  color: #ffffff;
+  font-family: $title;
+  color: $white;
   font-size: 15px;
   text-transform: uppercase;
   padding: 10px 5px 10px 12px;
@@ -88,16 +88,16 @@
 
 .link-aboutus {
   text-decoration: none;
-  font-family: var(--title);
-  color: #ffffff;
+  font-family: $title;
+  color: $white;
   font-size: 15px;
   text-transform: uppercase;
   padding: 10px 10px 10px 9px;
 }
 .link-contact {
   text-decoration: none;
-  font-family: var(--title);
-  color: #ffffff;
+  font-family: $title;
+  color: $white;
   font-size: 15px;
   text-transform: uppercase;
   padding: 10px 14px 10px 5px;
