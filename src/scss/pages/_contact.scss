@@ -1,4 +1,6 @@
 .contact-title {
+  margin-top: 30px;
+  margin-bottom: 15px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -14,7 +16,9 @@
   text-transform: uppercase;
 }
 .contact-text-box {
-  margin: 10px 0 0;
+  margin: 0 15px 0 15px;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   font-family: $text;
   font-size: 16px;
@@ -25,4 +29,12 @@
   letter-spacing: normal;
   text-align: center;
   color: $grey;
+  & .text-small {
+    font-size: 12px;
+    margin-top: 30px;
+  }
+}
+
+.contact-description {
+  padding: 0 20px 0 20px;
 }

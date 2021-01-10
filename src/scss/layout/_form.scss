@@ -1,10 +1,39 @@
 .contact-form {
   padding: 58px 15px 60px 15px;
-}
-.form-field {
-  display: flex;
-  flex-direction: column;
+  & .form-field {
+    padding-bottom: 13px;
+    display: flex;
+    flex-direction: column;
+  }
+  & .label {
+    padding-bottom: 7px;
+    font-size: 14px;
+    font-family: $text;
+    color: $grey;
+  }
 }
 .form-field-info {
   height: 45px;
+  padding: 15px;
+  font-family: $text;
+  color: $lightgrey;
+}
+#message {
+  height: 105px;
+}
+.button-submit {
+  width: 290px;
+  height: 45px;
+  margin-top: 30px;
+  text-transform: uppercase;
+  color: $white;
+  background-color: $blue-green;
+  border-radius: 4px;
+  border-color: transparent;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  font-family: $title;
+}
+.asterisk {
+  color: $aqua;
 }
