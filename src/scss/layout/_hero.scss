@@ -9,20 +9,30 @@
   z-index: 0;
 }
 .claim-box {
+  height: 80px;
+  width: 290px;
   display: flex;
   align-items: center;
   align-self: flex-end;
   background-color: $white;
   z-index: 2;
-  padding: 15px 30px;
-  transform: translate(0px, 25px);
+  padding: 15px 15px;
+  transform: translate(0px, 45px);
   @media all and (min-width: 768px) {
     opacity: 0.8;
     transform: translate(-140px, 0px);
+    width: 440px;
+    display: flex;
+    justify-content: center;
+  }
+  @media all and (min-width: 1200px) {
+    width: 574px;
+    height: 90px;
+    padding: 30px 30px;
   }
 }
 .claim-text {
-  height: 50px;
+  /*height: 50px;*/
   font-family: $claim;
   font-size: 18px;
   font-stretch: normal;
@@ -33,7 +43,6 @@
   display: flex;
   align-items: center;
   text-align: center;
-  padding: 15px;
   @media all and (min-width: 1200px) {
     font-size: 24px;
     opacity: 0.8;

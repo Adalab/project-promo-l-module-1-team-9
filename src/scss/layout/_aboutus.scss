@@ -95,7 +95,7 @@
   border: solid 5px rgba(0, 0, 0, 0.08);
 }
 .adalaber-description {
-  margin: 0px 15px 15px 15px;
+  margin: 0px 30px 15px 30px;
   font-family: $text;
   font-size: 16px;
   font-weight: normal;
@@ -145,7 +145,7 @@
   justify-content: center;
   padding-left: 0%;
   list-style: none;
-  
+
   @media all and (min-width: 768px) {
     justify-content: start;
     margin: 0;
