@@ -11,6 +11,9 @@
     font-family: $text;
     color: $grey;
   }
+  @media all and (min-width: 768px) {
+    padding: 0;
+  }
 }
 .form-field-info {
   height: 45px;
@@ -33,7 +36,43 @@
   -webkit-appearance: none;
   -moz-appearance: none;
   font-family: $title;
+  @media all and (min-width: 768px) {
+    width: 206px;
+    margin-top: 17px;
+  }
+  @media all and (min-width: 1200px) {
+    width: 278px;
+  }
 }
 .asterisk {
   color: $aqua;
+}
+.name {
+  @media all and (min-width: 1200px) {
+    width: 100%;
+  }
+}
+.email {
+  @media all and (min-width: 1200px) {
+    width: 62%;
+    margin-right: 44px;
+  }
+}
+.phone {
+  @media all and (min-width: 1200px) {
+    width: 30%;
+  }
+}
+.message {
+  @media all and (min-width: 1200px) {
+    width: 100%;
+  }
+}
+.form-submit {
+  @media all and (min-width: 768px) {
+    display: flex;
+    justify-content: flex-end;
+  }
+  @media all and (min-width: 1200px) {
+  }
 }

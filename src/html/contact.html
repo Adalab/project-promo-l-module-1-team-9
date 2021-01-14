@@ -21,83 +21,44 @@
   <body>
     <include src="./partials/header.html"></include>
 
-    <main class="main">
-      <section class="hero-contact"></section>
-      <section class="contact">
-        <h2 class="contact-title">Contacto</h2>
-        <div class="contact-text-box">
-          <p class="contact-description">
-            ¿Quieres saber más sobre nosotras? <br />
-            Para ponerte en contacto, rellena este formulario y estaremos
-            encantadas de conocerte.
-          </p>
-          <small class="text-small"
-            >Todos los campos marcados con <span class="asterisk">*</span> son
-            obligatorios</small
-          >
+<body>
+  <include src="./partials/header.html"></include>
+
+  <main class="main">
+    <section class="hero"></section>
+    <section class="contact">
+      <h2 class="contact-title">Contacto</h2>
+      <div class="contact-text-box">
+        <p class="contact-description">¿Quieres saber más sobre nosotras? <br> Para ponerte en contacto, rellena este
+          formulario y estaremos encantadas de conocerte.</p>
+        <small class="text-small">Todos los campos marcados con <span class="asterisk">*</span> son obligatorios</small>
+      </div>
+      <form class="contact-form" action="https://formspree.io/f/mbjpqobw" method="POST">
+        <div class="form-field name">
+          <label class="label" for="name">Nombre completo <span class="asterisk">*</span></label>
+          <input class="form-field-info" id="name" type="text" name="name" placeholder="Nombre..." required />
         </div>
-        <form
-          class="contact-form"
-          action="https://formspree.io/f/mbjpqobw"
-          method="POST"
-        >
-          <div class="form-field">
-            <label class="label" for="name"
-              >Nombre completo <span class="asterisk">*</span></label
-            >
-            <input
-              class="form-field-info"
-              id="name"
-              type="text"
-              name="name"
-              placeholder="Nombre..."
-              required
-            />
-          </div>
-          <div class="form-field">
-            <label class="label" for="email"
-              >Email <span class="asterisk">*</span></label
-            >
-            <input
-              class="form-field-info"
-              id="email"
-              type="email"
-              name="email"
-              placeholder="nombre.apellidos@mail.com"
-              required
-            />
-          </div>
-          <div class="form-field">
-            <label class="label" for="telephone">Teléfono</label>
-            <input
-              class="form-field-info"
-              id="telephone"
-              type="tel"
-              name="telephone"
-              placeholder="Ej: 123456789"
-            />
-          </div>
-          <div class="form-field">
-            <label class="label" for="message"
-              >Mensaje <span class="asterisk">*</span></label
-            >
-            <textarea
-              class="form-field-info"
-              id="message"
-              type="text-area"
-              name="message"
-              placeholder="¿Qué necesitas?"
-              rows="6"
-              columns="6"
-              required
-            ></textarea>
-          </div>
-          <div class="form-submit">
-            <input class="button-submit" type="submit" value="Enviar" />
-          </div>
-        </form>
-      </section>
-    </main>
-    <include src="./partials/footer.html"></include>
-  </body>
+        <div class="form-field email">
+          <label class="label" for="email">Email <span class="asterisk">*</span></label>
+          <input class="form-field-info" id="email" type="email" name="email" placeholder="nombre.apellidos@mail.com"
+            required />
+        </div>
+        <div class="form-field phone">
+          <label class="label" for="telephone">Teléfono</label>
+          <input class="form-field-info" id="telephone" type="tel" name="telephone" placeholder="Ej: 123456789" />
+        </div>
+        <div class="form-field message">
+          <label class="label" for="message">Mensaje <span class="asterisk">*</span></label>
+          <textarea class="form-field-info" id="message" type="text-area" name="message" placeholder="¿Qué necesitas?"
+            rows="6" columns="6" required></textarea>
+        </div>
+        <div class="form-submit">
+          <input class="button-submit" type="submit" value="Enviar" />
+        </div>
+      </form>
+    </section>
+  </main>
+  <include src="./partials/footer.html"></include>
+</body>
+
 </html>
