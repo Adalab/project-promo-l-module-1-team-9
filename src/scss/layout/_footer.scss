@@ -76,6 +76,11 @@
   line-height: 1.43;
   letter-spacing: normal;
   color: $grey;
+  transition: color ease 1s, font-size ease 1s;
+  &:hover {
+    color: darkblue;
+    font-size: 18px;
+  }
   @media all and (min-width: 768px) {
     line-height: 2.14;
   }

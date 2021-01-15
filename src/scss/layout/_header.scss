@@ -23,6 +23,20 @@
   align-items: center;
   justify-content: center;
   z-index: 99;
+  animation-name: title;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+
+  @keyframes title {
+    from {
+      opacity: 0;
+      transform: scale(10) rotate(-150deg);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
   @media all and (min-width: 768px) {
     text-align: right;
     justify-content: flex-start;
@@ -76,6 +90,11 @@
   font-size: 15px;
   text-transform: uppercase;
   padding: 10px 5px 10px 12px;
+  transition: color ease 1s, font-size ease 1s;
+  &:hover {
+    color: purple;
+    font-size: 18px;
+  }
 }
 
 .link-aboutus {
@@ -85,6 +104,11 @@
   font-size: 15px;
   text-transform: uppercase;
   padding: 10px 10px 10px 9px;
+  transition: color ease 1s, font-size ease 1s;
+  &:hover {
+    color: purple;
+    font-size: 18px;
+  }
 }
 .link-contact {
   text-decoration: none;
@@ -93,4 +117,9 @@
   font-size: 15px;
   text-transform: uppercase;
   padding: 10px 14px 10px 5px;
+  transition: color ease 1s, font-size ease 1s;
+  &:hover {
+    color: purple;
+    font-size: 18px;
+  }
 }
