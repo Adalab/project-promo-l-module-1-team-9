@@ -176,6 +176,12 @@
   .link {
     text-decoration: none;
     display: flex;
+    background-color: transparent;
+    border-radius: 50%;
+    transition: background-color ease 1s;
+    &:hover {
+      background-color: yellow;
+    }
   }
 }
 .social {
