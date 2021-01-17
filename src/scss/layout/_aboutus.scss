@@ -122,6 +122,14 @@
     margin: 0;
   }
 }
+.about__teresa--link {
+  text-decoration: none;
+  color: $black;
+  transition: color ease 1s;
+  &:hover {
+    color: $blue-green;
+  }
+}
 /*.img {
   width: 180px;
   height: 180px;
