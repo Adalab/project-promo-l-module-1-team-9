@@ -1,0 +1,43 @@
+.about__teresa {
+  position: relative;
+  top: 150px;
+}
+.about__teresa--name {
+  font-family: $text;
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.25;
+  letter-spacing: normal;
+  text-align: left;
+  color: $black;
+  padding-left: 50px;
+  position: relative;
+  top: 40px;
+}
+.about__teresa--description {
+  width: 500px;
+  font-family: $text;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: $grey;
+  position: absolute;
+  top: 50px;
+  left: 350px;
+}
+.about__teresa--container {
+  padding-left: 50px;
+  position: relative;
+  top: 50px;
+}
+.about__teresa--image {
+  height: 250px;
+  width: 250px;
+}
