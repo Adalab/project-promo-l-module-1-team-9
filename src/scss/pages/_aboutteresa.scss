@@ -1,0 +1,60 @@
+.about__adalaber {
+  position: absolute;
+  top: 100px;
+  width: 100vw;
+  height: 100vh;
+  padding: 15px;
+  @media all and (min-width: 768px) {
+    padding-left: 35px;
+  }
+}
+.about__adalaber--name {
+  position: relative;
+  font-family: $text;
+  font-size: 26px;
+  text-transform: capitalize;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.25;
+  letter-spacing: normal;
+  text-align: center;
+  color: $black;
+  @media all and (min-width: 768px) {
+    text-align: left;
+  }
+}
+.about__adalaber--container {
+  position: relative;
+  text-align: center;
+  @media all and (min-width: 768px) {
+    text-align: left;
+  }
+}
+.about__adalaber--image {
+  height: 250px;
+  width: 250px;
+}
+.about__adalaber--description {
+  position: relative;
+  width: 280px;
+  font-family: $text;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: $grey;
+  padding-top: 20px;
+  @media all and (min-width: 768px) {
+    width: 680px;
+    text-align: justify;
+  }
+  @media all and (min-width: 1200px) {
+    position: absolute;
+    left: 400px;
+    top: 10px;
+  }
+}

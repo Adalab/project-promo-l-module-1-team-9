@@ -24,13 +24,13 @@
   justify-content: center;
   z-index: 99;
   animation-name: title;
-  animation-duration: 5s;
+  animation-duration: 2s;
   animation-iteration-count: 1;
 
   @keyframes title {
     from {
       opacity: 0;
-      transform: scale(10) rotate(-150deg);
+      transform: scale(6) rotate(-150deg);
     }
     to {
       opacity: 1;
@@ -59,7 +59,7 @@
   width: 100vw;
   opacity: 0.9;
   background-color: $aqua;
-  z-index: 99;
+  z-index: 98;
   @media all and (min-width: 768px) {
     align-items: center;
     background-color: $blue-green;
@@ -90,10 +90,9 @@
   font-size: 15px;
   text-transform: uppercase;
   padding: 10px 5px 10px 12px;
-  transition: color ease 1s, font-size ease 1s;
+  transition: color ease 1s;
   &:hover {
     color: purple;
-    font-size: 18px;
   }
 }
 
@@ -104,10 +103,9 @@
   font-size: 15px;
   text-transform: uppercase;
   padding: 10px 10px 10px 9px;
-  transition: color ease 1s, font-size ease 1s;
+  transition: color ease 1s;
   &:hover {
     color: purple;
-    font-size: 18px;
   }
 }
 .link-contact {
@@ -117,9 +115,8 @@
   font-size: 15px;
   text-transform: uppercase;
   padding: 10px 14px 10px 5px;
-  transition: color ease 1s, font-size ease 1s;
+  transition: color ease 1s;
   &:hover {
     color: purple;
-    font-size: 18px;
   }
 }
