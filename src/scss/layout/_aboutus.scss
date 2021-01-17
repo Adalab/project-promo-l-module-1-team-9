@@ -130,16 +130,7 @@
     color: $blue-green;
   }
 }
-/*.img {
-  width: 180px;
-  height: 180px;
-  margin: 0px 70px 0px 70px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 4px;
-  border: solid 5px rgba(0, 0, 0, 0.08);
-}*/
+
 .adalaber-description {
   margin: 0px 30px 15px 30px;
   padding: 0px 15px;
@@ -184,12 +175,6 @@
   .link {
     text-decoration: none;
     display: flex;
-    background-color: transparent;
-    border-radius: 50%;
-    transition: background-color ease 1s;
-    &:hover {
-      background-color: yellow;
-    }
   }
 }
 .social {
@@ -219,8 +204,16 @@
 .fab {
   color: $blue-green;
   padding: 0px 5px 0px 0px;
+  transition: color ease 1s;
+  &:hover {
+    color: purple;
+  }
 }
 .fas {
   color: $blue-green;
   padding: 0px 5px 0px 0px;
+  transition: color ease 1s;
+  &:hover {
+    color: purple;
+  }
 }
